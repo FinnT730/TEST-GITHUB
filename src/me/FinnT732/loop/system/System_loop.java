@@ -1,5 +1,6 @@
 package me.FinnT732.loop.system;
 
+import java.applet.Applet;
 import java.util.Random;
 
 public class System_loop  {
@@ -8,10 +9,13 @@ public class System_loop  {
 	
 	private String[] name;
 	
-	Random random;
-	
 	public void Main(String[] args) {
 		
+	}
+	
+	public static void PrintText(Applet app,Random random) {
+		app.setSize(500,500);
+		app.add(app, random.nextInt(55));
 	}
 
 }
