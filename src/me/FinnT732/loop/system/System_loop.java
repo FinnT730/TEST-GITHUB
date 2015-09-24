@@ -17,5 +17,9 @@ public class System_loop  {
 		app.setSize(500,500);
 		app.add(app, random.nextInt(55));
 	}
+	
+	private static void Test() {
+		System.out.println("THIS IS AN TEST!!");
+	}
 
 }
