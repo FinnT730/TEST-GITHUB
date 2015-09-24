@@ -1,14 +1,17 @@
 package me.FinnT732.loop.system;
 
-import java.awt.RenderingHints;
-import java.awt.image.LookupOp;
-import java.awt.image.LookupTable;
+import java.util.Random;
 
-public class System_loop extends LookupOp {
-
-	public System_loop(LookupTable arg0, RenderingHints arg1) {
-		super(arg0, arg1);
-		arg1.clear();
+public class System_loop  {
+	
+	private int[] number;
+	
+	private String[] name;
+	
+	Random random;
+	
+	public void Main(String[] args) {
+		
 	}
 
 }
