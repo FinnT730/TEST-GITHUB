@@ -32,9 +32,7 @@ public class Main extends Application{
 	    if(ps.getProgress() != 1000) {
 	    	ps.setProgress(ps.getProgress() + 1);
 	    }
-	    
-	    pane.setBackground(new BackgroundImage(new BackgroundImage(img, 100, 100, 100, 100),0, 0, 100, 100));
-	    
+	    	    
 	    pane.getChildren().add(ps);
 	    
 	    stage.setScene(new Scene(pane));
